@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google drive direct download link generator</title>
+    
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+<link href="style.css" rel="stylesheet" type="text/css"></link>
+
+
+</head>
+<body>
+
+<h2>Direct Download Link Generator</h2><script type="text/javascript">
+	atOptions = {
+		'key' : '1d872e54c12542b55fb8e4593372b522',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="//www.profitablecreativeformat.com/1d872e54c12542b55fb8e4593372b522/invoke.js"></scr' + 'ipt>');
+</script><div><br /></div>
+<div id="Main_Block">
+	<script type="text/javascript">
+	atOptions = {
+		'key' : '2be5ca78432aed03ddc12c5e0ad2f747',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="//www.profitablecreativeformat.com/2be5ca78432aed03ddc12c5e0ad2f747/invoke.js"></scr' + 'ipt>');
+</script>
+
+  <label><b>Enter Google Drive File's Share Link:</b> </label>
+  <textarea autofocus="" id="GDurl" max-cols="2" max-rows="2" name="GDurl" placeholder="https://drive.google.com/file/d/1mMKLWNb-w6T4ciJeRMLmLIHqLzf4xs_W/view?usp=sharing" style="font-size: 13px;"></textarea>  
+
+  <button id="btn" onclick="myFunction1()" type="button">Generate Direct Download Link</button><br />
+  
+  <p style="box-shadow: rgb(213, 229, 230) 2px 2px; color: red; font-size: 15px; font-weight: bold; margin-top: 4px; text-align: center;"><span id="Msg"></span><span id="tim" style="color: black;"></span></p>
+  <br />
+  <textarea id="result" max-cols="2" name="result" rows="2" style="color: #2c3e50; font-size: 13px; font-weight: bold;"></textarea>
+  
+  <button id="btn_cpy" onclick="myFunction2('result')" type="button">Copy Generated Link</button><br /><br />
+
+
+
+
+<script>
+    function myFunction1(){
+var Ourl = document.getElementById('GDurl').value;
+      if(Ourl == ""){
+      alert("Enter Enter Video Url")
+      }else{
+var sli = Ourl.slice(0, 65)
+var Nurl = sli.replace('//drive.google.com/file/d/','//drive.google.com/uc?id=');
+var timeleft = 5;
+    var downloadTimer = setInterval(function(){
+    if(timeleft <= 0){
+    clearInterval(downloadTimer);
+    }
+  	  document.getElementById('Msg').innerHTML= "Generating Direct Download Link in 5 seconds:" + " ";  
+      document.getElementById('tim').innerHTML =5 - timeleft;
+    timeleft -= 1;
+    }, 500);
+   
+  setTimeout(function(){  
+    var SRL = document.getElementById('result');
+    SRL.scrollIntoView();
+    document.getElementById('result').innerHTML = Nurl;
+  }, 5000);     
+//document.getElementById('result').innerHTML = Nurl;
+      }
+    }
+  
+function myFunction2(id){
+document.getElementById(id).select();
+  document.execCommand('copy');
+  document.getElementById('btn_cpy').innerHTML = "Copied!";
+  setTimeout(function(){
+  document.getElementById('btn_cpy').innerHTML = "Copy Generated Link"
+  }, 5000);
+}
+</script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : '1d872e54c12542b55fb8e4593372b522',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="//www.profitablecreativeformat.com/1d872e54c12542b55fb8e4593372b522/invoke.js"></scr' + 'ipt>');
+</script>
+</div>
+</body>
+<script type='text/javascript' src='//pl21029471.highcpmrevenuegate.com/5c/96/27/5c962780a068c00a5c3c5c44ed93d62b.js'></script>
+</html>
